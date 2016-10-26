@@ -1,0 +1,55 @@
+
+Party:
+  Enabled: true
+  Party-Limit: 0
+  Server-Switch: false
+  
+  Messages:
+    Help:
+    - '&c&l&m----------&r &8[&a&lParty Help&8] &c&l&m----------&r'
+    - '&c/party create &7- &c&oCreate a new party'
+    - '&c/party list &7- &c&oList the current members of your party}'
+    - '&c/party leave &7- &c&oLeave/Delete your current party'
+    - '&c/party chat &7- &c&oChat with your party members'
+    - '&c/party invite &7- &c&oInvite a player to your party'
+    - '&c/party kick &7- &c&oKick someone from your party'
+    - '&c/party admin (player) &7- &c&oPromote someone to admin in your party.'
+    - '&c&l&m----------&r &8[&a&lParty Help&8] &c&l&m----------&r'
+    NoPermission: '&cYou don''t have the permission to use this Command!'
+    WrongArgs: '&cPlease use /party help for more info.'
+    ConsoleError: '&cThe console cannot use this Command!'
+    AlreadyInParty: '&cYou are already in a party!'
+    PartyCreated: '&aYou have created a new party!'
+    OfflinePlayer: '&cThat player is not online!'
+    AdminRemove: '&c%player% is not a party admin anymore.'
+    AdminAdd: '&a%player% is now a party admin!'
+    NotInYourParty: '&cThat Player is not in your party!'
+    NotPartyOwner: '&cYou are not the party owner, so you cannot use this command!'
+    NotInParty: '&cYou are not in a party!'
+    LeftParty: '&cYou have left your party!'
+    LeftPartyMessage: '&c%player% has left the party!'
+    PartyRemoved: '&cYou have deleted your party!'
+    PartyRemovedMessage: '&c%player% has deleted the party!'
+    PartyChatFormat: '&f%player% &6:: &f%message%'
+    PartyFull: '&cYour party is full!'
+    PlayerAlreadyInParty: '&cThat player is already in your party!'
+    PlayerHasOwnParty: '&cThat player already has his own party!'
+    InvitedPlayer: '&aYou have invited &e%player% &ato your party!'
+    InviteReceive:
+    - '&e%player% &ahas invited you to join his party!'
+    - '&aUse /party accept within 1 minute to join his Party!'
+    AcceptedToLate: '&cThis invitation is already expired!'
+    JoinedParty: '&aYou have joined the party!'
+    JoinedPartyMessage: '&e%player% &ahas joined the party!'
+    NoInvites: '&cYou do not have any invites.'
+    Kicked: '&cYou have been kicked out of the party!'
+    KickedPlayer: '&cYou have kicked %player% out of the party!'
+    KickedMessage: '&4%player% &cwas kicked out of the party!'
+    AdminError: '&cYou cannot make yourself admin!'
+    ServerWarp: '&aThe party owner has sent you to his server!'
+    
+    PartyList:
+      Header: '&a========== &eParty Members &a=========='
+      Format: '&a%player% &eis %onORoff% &8[&a%partyrank%&8] [&e%server%&8]'
+      Footer: '&a========== &eParty Members &a=========='
+

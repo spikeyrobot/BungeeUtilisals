@@ -1,0 +1,31 @@
+useUUIDs: false
+useregexperms: false
+grouppermission: true
+backendtype: YAML
+uuidplayerdb: None
+tablePrefix: bungeeperms_
+uuidfetcher:
+  cooldown: 3000
+saveAllUsers: true
+deleteUsersOnCleanup: false
+notify:
+  promote: true
+  demote: true
+tabcomplete: true
+locale: en-GB
+networktype: Standalone
+networkservers: []
+debug:
+  path: /home/minecraft/multicraft/servers/server3250/plugins/BungeePerms/debug.log
+  showexceptions: true
+  showlogs: true
+terminate:
+  prefix:
+    reset: true
+    space: true
+  suffix:
+    reset: true
+    space: true
+cleanup:
+  interval: 1800
+  threshold: 600

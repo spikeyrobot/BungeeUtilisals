@@ -1,0 +1,5 @@
+update_delay: 100
+AnimatePlayerList: false
+AnimatePlayerCount: false
+use_AND_as_color_symbol: true
+live_edit: true

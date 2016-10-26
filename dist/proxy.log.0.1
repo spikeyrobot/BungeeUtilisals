@@ -1,0 +1,889 @@
+15:48:48 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+15:48:48 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+15:48:48 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"b6e26e0":1091
+15:48:49 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+15:48:49 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+15:48:49 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+15:48:49 [WARNING] Could not load plugin from file plugins\BungeePerms-3.0-alpha-1.jar
+java.lang.NullPointerException: Plugin must have a plugin.yml or bungee.yml
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:226)
+	at net.md_5.bungee.api.plugin.PluginManager.detectPlugins(PluginManager.java:345)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:245)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:55)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+15:48:49 [WARNING] BungeeYAML (required by BungeeUtilisals) is unavailable
+15:48:49 [WARNING] Failed to enable BungeeUtilisals
+15:48:49 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+15:48:49 [INFO] Loaded plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+15:48:49 [INFO] Loaded plugin SlashServer version 3 by Bloodsplat
+15:48:49 [INFO] Loaded plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+15:48:49 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+15:48:49 [INFO] Loaded plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+15:48:49 [INFO] Loaded plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+15:48:49 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+15:48:49 [INFO] Enabled plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+15:48:49 [INFO] Enabled plugin SlashServer version 3 by Bloodsplat
+15:48:49 [INFO] Enabled plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+15:48:49 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+15:48:49 [INFO] Enabled plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+15:48:49 [INFO] Enabled plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+15:48:49 [WARNING] Could not bind to host /0.0.0.0:25565
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:485)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1089)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:430)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:415)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:903)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:198)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:348)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+15:48:49 [WARNING] Could not bind to host /0.0.0.0:25565
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.DatagramChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.DatagramSocketAdaptor.bind(Unknown Source)
+	at io.netty.channel.socket.nio.NioDatagramChannel.doBind(NioDatagramChannel.java:192)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:485)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1089)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:430)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:415)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:903)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:198)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:348)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+15:48:56 [INFO] CONSOLE executed command: /end
+15:48:56 [INFO] Closing pending connections
+15:48:56 [INFO] Disconnecting 0 connections
+15:48:56 [INFO] Closing IO threads
+15:48:58 [INFO] Disabling plugins
+11:18:40 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+11:18:40 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+11:18:40 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"b6e26e0":1091
+11:18:40 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+11:18:40 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+11:18:40 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+11:18:40 [INFO] Loaded plugin BungeeYAML version ${pom.version}-${build.number} by roblabla
+11:18:40 [INFO] Loaded plugin BungeeUtilisals version 2.0.0 by didjee2
+11:18:40 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:18:40 [INFO] Loaded plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:18:40 [INFO] Loaded plugin SlashServer version 3 by Bloodsplat
+11:18:40 [INFO] Loaded plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:18:40 [INFO] [BungeePerms] loading permissions ...
+11:18:40 [INFO] [BungeePerms] permissions loaded
+11:18:40 [INFO] Loaded plugin BungeePerms version 3.0-alpha-1 by wea_ondara
+11:18:40 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:18:40 [INFO] Loaded plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:18:40 [INFO] Loaded plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:18:40 [INFO] Enabled plugin BungeeYAML version ${pom.version}-${build.number} by roblabla
+11:18:40 [INFO] BungeeUtilisals is now Enabled!
+11:18:40 [INFO] Enabled plugin BungeeUtilisals version 2.0.0 by didjee2
+11:18:40 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:18:40 [INFO] Enabled plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:18:40 [INFO] Enabled plugin SlashServer version 3 by Bloodsplat
+11:18:40 [INFO] [BungeePerms] Activating BungeePerms ...
+11:18:40 [INFO] Enabled plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:18:40 [INFO] Enabled plugin BungeePerms version 3.0-alpha-1 by wea_ondara
+11:18:40 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:18:40 [INFO] Enabled plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:18:40 [INFO] Enabled plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:18:40 [INFO] Listening on /0.0.0.0:25565
+11:18:40 [INFO] Started query on /0:0:0:0:0:0:0:0:25566
+11:18:41 [INFO] [/205.185.112.43:59255] <-> InitialHandler has connected
+11:18:41 [INFO] [/205.185.112.43:59245] <-> InitialHandler has connected
+11:18:42 [INFO] [/205.185.112.45:35995] <-> InitialHandler has connected
+11:18:42 [INFO] [/205.185.112.45:35991] <-> InitialHandler has connected
+11:18:44 [INFO] [/205.185.112.43:59265] <-> InitialHandler has connected
+11:18:45 [INFO] [/205.185.112.45:35999] <-> InitialHandler has connected
+11:18:48 [INFO] [/205.185.112.43:59275] <-> InitialHandler has connected
+11:18:48 [INFO] [/205.185.112.45:36004] <-> InitialHandler has connected
+11:18:50 [INFO] [/205.185.112.43:59284] <-> InitialHandler has connected
+11:18:51 [INFO] [/205.185.112.45:36019] <-> InitialHandler has connected
+11:18:53 [INFO] [/205.185.112.43:59294] <-> InitialHandler has connected
+11:18:54 [INFO] [/205.185.112.45:36023] <-> InitialHandler has connected
+11:18:56 [INFO] [/205.185.112.43:59304] <-> InitialHandler has connected
+11:18:57 [INFO] [/205.185.112.45:36028] <-> InitialHandler has connected
+11:18:59 [INFO] [/205.185.112.43:59314] <-> InitialHandler has connected
+11:19:00 [INFO] [/205.185.112.45:36032] <-> InitialHandler has connected
+11:19:02 [INFO] [/205.185.112.43:59324] <-> InitialHandler has connected
+11:19:03 [INFO] [/205.185.112.45:36036] <-> InitialHandler has connected
+11:19:04 [INFO] [spikeyrobot] <-> InitialHandler has connected
+11:19:05 [INFO] [/205.185.112.43:59334] <-> InitialHandler has connected
+11:19:06 [INFO] [BungeePerms] Login by spikeyrobot (2ce9dee6-8da9-49d2-b51f-d668931e61a7)
+11:19:06 [INFO] [spikeyrobot] <-> ServerConnector [hub] has connected
+11:19:06 [INFO] [/205.185.112.45:36050] <-> InitialHandler has connected
+11:19:06 [INFO] [BungeePerms] null
+11:19:06 [SEVERE] Dec 08, 2015 11:19:06 AM net.md_5.bungee.event.EventBus post
+WARNING: Error dispatching event PermissionCheckEvent(sender=spikeyrobot, permission=butilisals.notify, hasPermission=false) to listener net.alpenblock.bungeeperms.platform.bungee.BungeeEventListener@1a7704c
+java.lang.NullPointerException
+	at net.alpenblock.bungeeperms.PermissionsManager.getUser(PermissionsManager.java:475)
+	at net.alpenblock.bungeeperms.PermissionsChecker.hasPermOrConsoleOnServerInWorld(PermissionsChecker.java:334)
+	at net.alpenblock.bungeeperms.platform.bungee.BungeeEventListener.onPermissionCheck(BungeeEventListener.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:374)
+	at net.md_5.bungee.UserConnection.hasPermission(UserConnection.java:466)
+	at com.dbsoftware.bungeeutilisals.bungee.events.ServerSwitch.onJoin(ServerSwitch.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:374)
+	at net.md_5.bungee.ServerConnector.handle(ServerConnector.java:251)
+	at net.md_5.bungee.protocol.packet.Login.handle(Login.java:60)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:76)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+
+
+11:19:06 [INFO] [BungeePerms] null
+11:19:06 [SEVERE] Dec 08, 2015 11:19:06 AM net.md_5.bungee.event.EventBus post
+WARNING: Error dispatching event PermissionCheckEvent(sender=spikeyrobot, permission=butilisals.*, hasPermission=true) to listener net.alpenblock.bungeeperms.platform.bungee.BungeeEventListener@1a7704c
+java.lang.NullPointerException
+	at net.alpenblock.bungeeperms.PermissionsManager.getUser(PermissionsManager.java:475)
+	at net.alpenblock.bungeeperms.PermissionsChecker.hasPermOrConsoleOnServerInWorld(PermissionsChecker.java:334)
+	at net.alpenblock.bungeeperms.platform.bungee.BungeeEventListener.onPermissionCheck(BungeeEventListener.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:374)
+	at net.md_5.bungee.UserConnection.hasPermission(UserConnection.java:466)
+	at com.dbsoftware.bungeeutilisals.bungee.events.ServerSwitch.onJoin(ServerSwitch.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:374)
+	at net.md_5.bungee.ServerConnector.handle(ServerConnector.java:251)
+	at net.md_5.bungee.protocol.packet.Login.handle(Login.java:60)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:76)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+
+
+11:19:08 [INFO] [/205.185.112.43:59345] <-> InitialHandler has connected
+11:19:09 [INFO] [/205.185.112.45:36054] <-> InitialHandler has connected
+11:19:11 [INFO] [/205.185.112.43:59355] <-> InitialHandler has connected
+11:19:12 [INFO] [/205.185.112.45:36060] <-> InitialHandler has connected
+11:19:14 [INFO] [/205.185.112.43:59365] <-> InitialHandler has connected
+11:19:15 [INFO] [/205.185.112.45:36064] <-> InitialHandler has connected
+11:19:18 [INFO] [/205.185.112.43:59377] <-> InitialHandler has connected
+11:19:18 [INFO] [/205.185.112.45:36068] <-> InitialHandler has connected
+11:19:20 [INFO] [/205.185.112.43:59387] <-> InitialHandler has connected
+11:19:21 [INFO] [/205.185.112.45:36072] <-> InitialHandler has connected
+11:19:23 [INFO] [/205.185.112.43:59398] <-> InitialHandler has connected
+11:19:24 [INFO] [/205.185.112.45:36076] <-> InitialHandler has connected
+11:19:26 [INFO] [/205.185.112.43:59408] <-> InitialHandler has connected
+11:19:27 [INFO] [/205.185.112.45:36080] <-> InitialHandler has connected
+11:19:29 [INFO] [/205.185.112.43:59418] <-> InitialHandler has connected
+11:19:30 [INFO] [/205.185.112.45:36084] <-> InitialHandler has connected
+11:19:32 [INFO] [/205.185.112.43:59431] <-> InitialHandler has connected
+11:19:33 [INFO] [/205.185.112.45:36088] <-> InitialHandler has connected
+11:19:35 [INFO] [/205.185.112.43:59441] <-> InitialHandler has connected
+11:19:36 [INFO] [/205.185.112.45:36092] <-> InitialHandler has connected
+11:19:38 [INFO] [/205.185.112.43:59451] <-> InitialHandler has connected
+11:19:39 [INFO] [/205.185.112.45:36096] <-> InitialHandler has connected
+11:19:41 [INFO] [/205.185.112.43:59461] <-> InitialHandler has connected
+11:19:42 [INFO] [/205.185.112.45:36100] <-> InitialHandler has connected
+11:19:44 [INFO] [/205.185.112.43:59471] <-> InitialHandler has connected
+11:19:45 [INFO] [/205.185.112.45:36104] <-> InitialHandler has connected
+11:19:47 [INFO] [/205.185.112.43:59481] <-> InitialHandler has connected
+11:19:48 [INFO] [/205.185.112.45:36110] <-> InitialHandler has connected
+11:19:50 [INFO] [/205.185.112.43:59498] <-> InitialHandler has connected
+11:19:51 [INFO] [/205.185.112.45:36115] <-> InitialHandler has connected
+11:19:53 [INFO] [/205.185.112.43:59508] <-> InitialHandler has connected
+11:19:54 [INFO] [/205.185.112.45:36119] <-> InitialHandler has connected
+11:19:56 [INFO] [/205.185.112.43:59518] <-> InitialHandler has connected
+11:19:57 [INFO] [/205.185.112.45:36124] <-> InitialHandler has connected
+11:19:59 [INFO] [/205.185.112.43:59528] <-> InitialHandler has connected
+11:20:00 [INFO] [/205.185.112.45:36128] <-> InitialHandler has connected
+11:20:02 [INFO] [/205.185.112.43:59538] <-> InitialHandler has connected
+11:20:03 [INFO] [/205.185.112.45:36132] <-> InitialHandler has connected
+11:20:05 [INFO] [/205.185.112.43:59548] <-> InitialHandler has connected
+11:20:06 [INFO] [/205.185.112.45:36137] <-> InitialHandler has connected
+11:20:08 [INFO] [/205.185.112.43:59557] <-> InitialHandler has connected
+11:20:09 [INFO] [/205.185.112.45:36141] <-> InitialHandler has connected
+11:20:11 [INFO] [/205.185.112.43:59567] <-> InitialHandler has connected
+11:20:12 [INFO] [/205.185.112.45:36145] <-> InitialHandler has connected
+11:20:14 [INFO] [/205.185.112.43:59578] <-> InitialHandler has connected
+11:20:15 [INFO] [/205.185.112.45:36149] <-> InitialHandler has connected
+11:20:18 [INFO] [/205.185.112.43:59589] <-> InitialHandler has connected
+11:20:18 [INFO] [/205.185.112.45:36170] <-> InitialHandler has connected
+11:20:20 [INFO] [/205.185.112.43:59599] <-> InitialHandler has connected
+11:20:21 [INFO] [/205.185.112.45:36174] <-> InitialHandler has connected
+11:20:23 [INFO] [/205.185.112.43:59609] <-> InitialHandler has connected
+11:20:24 [INFO] [/205.185.112.45:36179] <-> InitialHandler has connected
+11:20:26 [INFO] [/205.185.112.43:59619] <-> InitialHandler has connected
+11:20:27 [INFO] [/205.185.112.45:36183] <-> InitialHandler has connected
+11:20:29 [INFO] [/205.185.112.43:59629] <-> InitialHandler has connected
+11:20:30 [INFO] [/205.185.112.45:36187] <-> InitialHandler has connected
+11:20:32 [INFO] [/205.185.112.43:59639] <-> InitialHandler has connected
+11:20:33 [INFO] [/205.185.112.45:36191] <-> InitialHandler has connected
+11:20:35 [INFO] [/205.185.112.43:59649] <-> InitialHandler has connected
+11:20:36 [INFO] [/205.185.112.45:36195] <-> InitialHandler has connected
+11:20:38 [INFO] [/205.185.112.43:59668] <-> InitialHandler has connected
+11:20:39 [INFO] [/205.185.112.45:36199] <-> InitialHandler has connected
+11:20:41 [INFO] [/205.185.112.43:59678] <-> InitialHandler has connected
+11:20:42 [INFO] [/205.185.112.45:36203] <-> InitialHandler has connected
+11:20:44 [INFO] [/205.185.112.43:59689] <-> InitialHandler has connected
+11:20:45 [INFO] [/205.185.112.45:36207] <-> InitialHandler has connected
+11:20:47 [INFO] [/205.185.112.43:59698] <-> InitialHandler has connected
+11:20:48 [INFO] [/205.185.112.45:36212] <-> InitialHandler has connected
+11:20:50 [INFO] [/205.185.112.43:59708] <-> InitialHandler has connected
+11:20:51 [INFO] [/205.185.112.45:36218] <-> InitialHandler has connected
+11:20:53 [INFO] [/205.185.112.43:59718] <-> InitialHandler has connected
+11:20:54 [INFO] [/205.185.112.45:36222] <-> InitialHandler has connected
+11:20:56 [INFO] [/205.185.112.43:59728] <-> InitialHandler has connected
+11:20:57 [INFO] [/205.185.112.45:36226] <-> InitialHandler has connected
+11:20:59 [INFO] [/205.185.112.43:59738] <-> InitialHandler has connected
+11:21:00 [INFO] [/205.185.112.45:36230] <-> InitialHandler has connected
+11:21:02 [INFO] [/205.185.112.43:59748] <-> InitialHandler has connected
+11:21:03 [INFO] [/205.185.112.45:36234] <-> InitialHandler has connected
+11:21:05 [INFO] [/205.185.112.43:59758] <-> InitialHandler has connected
+11:21:06 [INFO] [/205.185.112.45:36239] <-> InitialHandler has connected
+11:21:08 [INFO] [/205.185.112.43:59768] <-> InitialHandler has connected
+11:21:09 [INFO] [/205.185.112.45:36243] <-> InitialHandler has connected
+11:21:11 [INFO] [/205.185.112.43:59778] <-> InitialHandler has connected
+11:21:12 [INFO] [/205.185.112.45:36247] <-> InitialHandler has connected
+11:21:14 [INFO] [/205.185.112.43:59788] <-> InitialHandler has connected
+11:21:15 [INFO] [/205.185.112.45:36252] <-> InitialHandler has connected
+11:21:17 [INFO] [/205.185.112.43:59799] <-> InitialHandler has connected
+11:21:18 [INFO] [/205.185.112.45:36256] <-> InitialHandler has connected
+11:21:20 [INFO] [/205.185.112.43:59811] <-> InitialHandler has connected
+11:21:21 [INFO] [/205.185.112.45:36261] <-> InitialHandler has connected
+11:21:23 [INFO] [/205.185.112.43:59821] <-> InitialHandler has connected
+11:21:24 [INFO] [/205.185.112.45:36265] <-> InitialHandler has connected
+11:21:26 [INFO] [/205.185.112.43:59831] <-> InitialHandler has connected
+11:21:27 [INFO] [/205.185.112.45:36269] <-> InitialHandler has connected
+11:21:29 [INFO] [/205.185.112.43:59841] <-> InitialHandler has connected
+11:21:30 [INFO] [/205.185.112.45:36273] <-> InitialHandler has connected
+11:21:32 [INFO] [/205.185.112.43:59851] <-> InitialHandler has connected
+11:21:33 [INFO] [/205.185.112.45:36277] <-> InitialHandler has connected
+11:21:35 [INFO] [/205.185.112.43:59861] <-> InitialHandler has connected
+11:21:36 [INFO] [/205.185.112.45:36281] <-> InitialHandler has connected
+11:21:38 [INFO] [/205.185.112.43:59871] <-> InitialHandler has connected
+11:21:39 [INFO] [/205.185.112.45:36286] <-> InitialHandler has connected
+11:21:41 [INFO] [/205.185.112.43:59881] <-> InitialHandler has connected
+11:21:42 [INFO] [/205.185.112.45:36290] <-> InitialHandler has connected
+11:21:44 [INFO] [/205.185.112.43:59891] <-> InitialHandler has connected
+11:21:45 [INFO] [/205.185.112.45:36294] <-> InitialHandler has connected
+11:21:47 [INFO] [/205.185.112.43:59901] <-> InitialHandler has connected
+11:21:48 [INFO] [/205.185.112.45:36298] <-> InitialHandler has connected
+11:21:50 [INFO] [/205.185.112.43:59911] <-> InitialHandler has connected
+11:21:51 [INFO] [/205.185.112.45:36302] <-> InitialHandler has connected
+11:21:53 [INFO] CONSOLE executed command: /end
+11:21:53 [INFO] Closing listener [id: 0x6b748ce5, /0:0:0:0:0:0:0:0:25566]
+11:21:53 [INFO] Closing listener [id: 0x6771e282, /0:0:0:0:0:0:0:0:25565]
+11:21:53 [INFO] Closing pending connections
+11:21:53 [INFO] Disconnecting 1 connections
+11:21:53 [INFO] [spikeyrobot] disconnected with: §f[Proxy] Proxy restarting.
+11:21:53 [INFO] Closing IO threads
+11:23:53 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+11:23:53 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+11:23:53 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"b6e26e0":1091
+11:23:53 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+11:23:53 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+11:23:53 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+11:23:53 [INFO] Loaded plugin BungeeYAML version ${pom.version}-${build.number} by roblabla
+11:23:53 [INFO] Loaded plugin BungeeUtilisals version 2.0.0 by didjee2
+11:23:53 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:23:53 [INFO] Loaded plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:23:53 [INFO] Loaded plugin SlashServer version 3 by Bloodsplat
+11:23:53 [INFO] Loaded plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:23:53 [INFO] [BungeePerms] loading permissions ...
+11:23:53 [INFO] [BungeePerms] permissions loaded
+11:23:53 [INFO] Loaded plugin BungeePerms version 3.0-alpha-1 by wea_ondara
+11:23:53 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:23:53 [INFO] Loaded plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:23:53 [INFO] Loaded plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:23:53 [INFO] Enabled plugin BungeeYAML version ${pom.version}-${build.number} by roblabla
+11:23:53 [INFO] BungeeUtilisals is now Enabled!
+11:23:53 [INFO] Enabled plugin BungeeUtilisals version 2.0.0 by didjee2
+11:23:53 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:23:53 [INFO] Enabled plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:23:53 [INFO] Enabled plugin SlashServer version 3 by Bloodsplat
+11:23:53 [INFO] [BungeePerms] Activating BungeePerms ...
+11:23:53 [INFO] Enabled plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:23:53 [INFO] Enabled plugin BungeePerms version 3.0-alpha-1 by wea_ondara
+11:23:53 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:23:53 [INFO] Enabled plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:23:53 [INFO] Enabled plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:23:54 [INFO] Listening on /0.0.0.0:25565
+11:23:54 [INFO] Started query on /0:0:0:0:0:0:0:0:25566
+11:23:54 [INFO] [/205.185.112.45:36495] <-> InitialHandler has connected
+11:23:54 [INFO] [/205.185.112.45:36490] <-> InitialHandler has connected
+11:23:54 [INFO] [/205.185.112.45:36474] <-> InitialHandler has connected
+11:23:54 [INFO] [/205.185.112.43:60328] <-> InitialHandler has connected
+11:23:54 [INFO] [/205.185.112.43:60307] <-> InitialHandler has connected
+11:23:55 [INFO] [/205.185.112.45:36486] <-> InitialHandler has connected
+11:23:56 [INFO] [/205.185.112.43:60338] <-> InitialHandler has connected
+11:23:57 [INFO] [/205.185.112.43:60287] <-> InitialHandler has connected
+11:23:57 [INFO] [/205.185.112.45:36499] <-> InitialHandler has connected
+11:23:57 [INFO] [/205.185.112.45:36478] <-> InitialHandler has connected
+11:23:57 [INFO] [/205.185.112.43:60318] <-> InitialHandler has connected
+11:23:59 [INFO] [/205.185.112.43:60348] <-> InitialHandler has connected
+11:24:00 [INFO] [/205.185.112.43:60297] <-> InitialHandler has connected
+11:24:00 [INFO] [/205.185.112.45:36503] <-> InitialHandler has connected
+11:24:00 [INFO] [/205.185.112.45:36482] <-> InitialHandler has connected
+11:24:02 [INFO] [/205.185.112.43:60358] <-> InitialHandler has connected
+11:24:03 [INFO] [/205.185.112.45:36507] <-> InitialHandler has connected
+11:24:05 [INFO] [/205.185.112.43:60368] <-> InitialHandler has connected
+11:24:06 [INFO] [/205.185.112.45:36512] <-> InitialHandler has connected
+11:24:08 [INFO] [/205.185.112.43:60379] <-> InitialHandler has connected
+11:24:09 [INFO] [/205.185.112.45:36516] <-> InitialHandler has connected
+11:24:10 [INFO] [/127.0.0.1:57114] <-> InitialHandler has connected
+11:24:11 [INFO] [BungeePerms] Login by spikeyrobot (2ce9dee6-8da9-49d2-b51f-d668931e61a7)
+11:24:11 [INFO] [spikeyrobot] <-> ServerConnector [hub] has connected
+11:24:11 [WARNING] [BungeePerms] Exception in getUser suppressed (err: Could not get name from uuid)
+11:24:11 [WARNING] [BungeePerms] Exception in getUser suppressed (err: Could not get name from uuid)
+11:24:11 [INFO] [/205.185.112.43:60389] <-> InitialHandler has connected
+11:24:12 [INFO] [/205.185.112.45:36520] <-> InitialHandler has connected
+11:24:14 [INFO] [/205.185.112.43:60398] <-> InitialHandler has connected
+11:24:15 [INFO] [/205.185.112.45:36524] <-> InitialHandler has connected
+11:24:16 [INFO] [/127.0.0.1:57127] <-> InitialHandler has connected
+11:24:16 [INFO] [/50.242.74.221:57128] <-> InitialHandler has connected
+11:24:17 [INFO] [/205.185.112.43:60411] <-> InitialHandler has connected
+11:24:18 [INFO] [/205.185.112.45:36528] <-> InitialHandler has connected
+11:24:20 [INFO] [/205.185.112.43:60421] <-> InitialHandler has connected
+11:24:21 [INFO] [/205.185.112.45:36554] <-> InitialHandler has connected
+11:24:23 [INFO] [/205.185.112.43:60431] <-> InitialHandler has connected
+11:24:24 [INFO] [/205.185.112.45:36559] <-> InitialHandler has connected
+11:24:26 [INFO] [/205.185.112.43:60441] <-> InitialHandler has connected
+11:24:27 [INFO] [/205.185.112.45:36563] <-> InitialHandler has connected
+11:24:29 [INFO] [/205.185.112.43:60451] <-> InitialHandler has connected
+11:24:32 [INFO] [/205.185.112.43:60461] <-> InitialHandler has connected
+11:24:33 [INFO] [/205.185.112.45:36571] <-> InitialHandler has connected
+11:24:35 [INFO] [/205.185.112.43:60471] <-> InitialHandler has connected
+11:24:36 [INFO] [/205.185.112.45:36575] <-> InitialHandler has connected
+11:24:38 [INFO] [/205.185.112.43:60481] <-> InitialHandler has connected
+11:24:39 [INFO] [/205.185.112.45:36579] <-> InitialHandler has connected
+11:24:41 [INFO] [/205.185.112.43:60491] <-> InitialHandler has connected
+11:24:42 [INFO] [/205.185.112.45:36583] <-> InitialHandler has connected
+11:24:44 [INFO] [/205.185.112.43:60501] <-> InitialHandler has connected
+11:24:45 [INFO] [/205.185.112.45:36587] <-> InitialHandler has connected
+11:24:47 [INFO] [/205.185.112.43:60511] <-> InitialHandler has connected
+11:24:48 [INFO] [/205.185.112.45:36591] <-> InitialHandler has connected
+11:24:50 [INFO] [/205.185.112.43:60532] <-> InitialHandler has connected
+11:24:51 [INFO] [/205.185.112.45:36595] <-> InitialHandler has connected
+11:24:54 [INFO] [/205.185.112.43:60542] <-> InitialHandler has connected
+11:24:56 [INFO] [/205.185.112.43:60552] <-> InitialHandler has connected
+11:24:57 [INFO] [/205.185.112.45:36603] <-> InitialHandler has connected
+11:24:59 [INFO] [/205.185.112.43:60562] <-> InitialHandler has connected
+11:25:00 [INFO] [/205.185.112.45:36607] <-> InitialHandler has connected
+11:25:02 [INFO] [/205.185.112.43:60572] <-> InitialHandler has connected
+11:25:03 [INFO] [/205.185.112.45:36611] <-> InitialHandler has connected
+11:25:05 [INFO] [/205.185.112.43:60582] <-> InitialHandler has connected
+11:25:06 [INFO] [/205.185.112.45:36616] <-> InitialHandler has connected
+11:25:08 [INFO] [/205.185.112.43:60592] <-> InitialHandler has connected
+11:25:09 [INFO] [/205.185.112.45:36620] <-> InitialHandler has connected
+11:25:11 [INFO] [/205.185.112.43:60602] <-> InitialHandler has connected
+11:25:12 [INFO] [/205.185.112.45:36624] <-> InitialHandler has connected
+11:25:14 [INFO] [/205.185.112.43:60612] <-> InitialHandler has connected
+11:25:15 [INFO] [/205.185.112.45:36628] <-> InitialHandler has connected
+11:25:17 [INFO] [/205.185.112.43:60623] <-> InitialHandler has connected
+11:25:20 [INFO] [/205.185.112.43:60633] <-> InitialHandler has connected
+11:25:21 [INFO] [/205.185.112.45:36636] <-> InitialHandler has connected
+11:25:23 [INFO] [/205.185.112.43:60643] <-> InitialHandler has connected
+11:25:24 [INFO] [/205.185.112.45:36641] <-> InitialHandler has connected
+11:25:26 [INFO] [/205.185.112.43:60654] <-> InitialHandler has connected
+11:25:27 [INFO] [/205.185.112.45:36645] <-> InitialHandler has connected
+11:25:29 [INFO] [/205.185.112.43:60664] <-> InitialHandler has connected
+11:25:30 [INFO] [/205.185.112.45:36649] <-> InitialHandler has connected
+11:25:32 [INFO] [/205.185.112.43:60674] <-> InitialHandler has connected
+11:25:33 [INFO] [/205.185.112.45:36653] <-> InitialHandler has connected
+11:25:35 [INFO] [/205.185.112.43:60684] <-> InitialHandler has connected
+11:25:36 [INFO] [/205.185.112.45:36657] <-> InitialHandler has connected
+11:25:38 [INFO] [/205.185.112.43:60694] <-> InitialHandler has connected
+11:25:39 [INFO] [/205.185.112.45:36661] <-> InitialHandler has connected
+11:25:41 [INFO] [/205.185.112.43:60703] <-> InitialHandler has connected
+11:25:44 [INFO] [/205.185.112.43:60714] <-> InitialHandler has connected
+11:25:45 [INFO] [/205.185.112.45:36669] <-> InitialHandler has connected
+11:25:47 [INFO] [/205.185.112.43:60724] <-> InitialHandler has connected
+11:25:48 [INFO] [/205.185.112.45:36673] <-> InitialHandler has connected
+11:25:50 [INFO] [/205.185.112.43:60734] <-> InitialHandler has connected
+11:25:51 [INFO] [/205.185.112.45:36682] <-> InitialHandler has connected
+11:25:53 [INFO] [/205.185.112.43:60745] <-> InitialHandler has connected
+11:25:54 [INFO] [/205.185.112.45:36686] <-> InitialHandler has connected
+11:25:56 [INFO] [/205.185.112.43:60755] <-> InitialHandler has connected
+11:25:57 [INFO] [/205.185.112.45:36690] <-> InitialHandler has connected
+11:25:59 [INFO] CONSOLE executed command: /end
+11:25:59 [INFO] Closing listener [id: 0xe79a9dac, /0:0:0:0:0:0:0:0:25565]
+11:25:59 [INFO] Closing listener [id: 0x438230fe, /0:0:0:0:0:0:0:0:25566]
+11:25:59 [INFO] Closing pending connections
+11:25:59 [INFO] Disconnecting 1 connections
+11:25:59 [INFO] [spikeyrobot] disconnected with: §f[Proxy] Proxy restarting.
+11:25:59 [INFO] Closing IO threads
+11:27:30 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+11:27:30 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+11:27:30 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"b6e26e0":1091
+11:27:30 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+11:27:30 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+11:27:30 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+11:27:30 [INFO] Loaded plugin BungeeYAML version ${pom.version}-${build.number} by roblabla
+11:27:30 [INFO] Loaded plugin BungeeUtilisals version 2.0.0 by didjee2
+11:27:30 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:27:30 [INFO] Loaded plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:27:30 [INFO] Loaded plugin SlashServer version 3 by Bloodsplat
+11:27:30 [INFO] Loaded plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:27:30 [INFO] [BungeePerms] loading permissions ...
+11:27:30 [INFO] [BungeePerms] permissions loaded
+11:27:30 [INFO] Loaded plugin BungeePerms version 3.0-alpha-1 by wea_ondara
+11:27:30 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:27:30 [INFO] Loaded plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:27:30 [INFO] Loaded plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:27:30 [INFO] Enabled plugin BungeeYAML version ${pom.version}-${build.number} by roblabla
+11:27:30 [INFO] BungeeUtilisals is now Enabled!
+11:27:30 [INFO] Enabled plugin BungeeUtilisals version 2.0.0 by didjee2
+11:27:30 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:27:30 [INFO] Enabled plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:27:30 [INFO] Enabled plugin SlashServer version 3 by Bloodsplat
+11:27:30 [INFO] [BungeePerms] Activating BungeePerms ...
+11:27:30 [INFO] Enabled plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:27:30 [INFO] Enabled plugin BungeePerms version 3.0-alpha-1 by wea_ondara
+11:27:30 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:27:30 [INFO] Enabled plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:27:30 [INFO] Enabled plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:27:30 [INFO] Listening on /0.0.0.0:25565
+11:27:30 [INFO] Started query on /0:0:0:0:0:0:0:0:25566
+11:27:30 [INFO] [/205.185.112.43:32834] <-> InitialHandler has connected
+11:27:31 [INFO] [/205.185.112.45:36820] <-> InitialHandler has connected
+11:27:32 [INFO] [/205.185.112.43:32844] <-> InitialHandler has connected
+11:27:33 [INFO] [/205.185.112.45:36824] <-> InitialHandler has connected
+11:27:35 [INFO] [/205.185.112.43:32854] <-> InitialHandler has connected
+11:27:36 [INFO] [/205.185.112.45:36828] <-> InitialHandler has connected
+11:27:39 [INFO] [/205.185.112.43:32865] <-> InitialHandler has connected
+11:27:39 [INFO] [/205.185.112.45:36832] <-> InitialHandler has connected
+11:27:41 [INFO] [/205.185.112.43:32875] <-> InitialHandler has connected
+11:27:42 [INFO] [/205.185.112.45:36836] <-> InitialHandler has connected
+11:27:44 [INFO] [/205.185.112.43:32885] <-> InitialHandler has connected
+11:27:45 [INFO] [/205.185.112.45:36840] <-> InitialHandler has connected
+11:27:46 [INFO] [/127.0.0.1:57241] <-> InitialHandler has connected
+11:27:47 [INFO] [BungeePerms] Login by spikeyrobot (2ce9dee6-8da9-49d2-b51f-d668931e61a7)
+11:27:47 [INFO] [spikeyrobot] <-> ServerConnector [hub] has connected
+11:27:47 [SEVERE] Dec 08, 2015 11:27:47 AM net.md_5.bungee.event.EventBus post
+WARNING: Error dispatching event PermissionCheckEvent(sender=spikeyrobot, permission=butilisals.notify, hasPermission=false) to listener net.alpenblock.bungeeperms.platform.bungee.BungeeEventListener@1a7704c
+java.lang.NullPointerException
+	at net.alpenblock.bungeeperms.PermissionsManager.getUser(PermissionsManager.java:475)
+	at net.alpenblock.bungeeperms.PermissionsChecker.hasPermOrConsoleOnServerInWorld(PermissionsChecker.java:334)
+	at net.alpenblock.bungeeperms.platform.bungee.BungeeEventListener.onPermissionCheck(BungeeEventListener.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:374)
+	at net.md_5.bungee.UserConnection.hasPermission(UserConnection.java:466)
+	at com.dbsoftware.bungeeutilisals.bungee.events.ServerSwitch.onJoin(ServerSwitch.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:374)
+	at net.md_5.bungee.ServerConnector.handle(ServerConnector.java:251)
+	at net.md_5.bungee.protocol.packet.Login.handle(Login.java:60)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:76)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+
+
+11:27:47 [SEVERE] Dec 08, 2015 11:27:47 AM net.md_5.bungee.event.EventBus post
+WARNING: Error dispatching event PermissionCheckEvent(sender=spikeyrobot, permission=butilisals.*, hasPermission=true) to listener net.alpenblock.bungeeperms.platform.bungee.BungeeEventListener@1a7704c
+java.lang.NullPointerException
+	at net.alpenblock.bungeeperms.PermissionsManager.getUser(PermissionsManager.java:475)
+	at net.alpenblock.bungeeperms.PermissionsChecker.hasPermOrConsoleOnServerInWorld(PermissionsChecker.java:334)
+	at net.alpenblock.bungeeperms.platform.bungee.BungeeEventListener.onPermissionCheck(BungeeEventListener.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:374)
+	at net.md_5.bungee.UserConnection.hasPermission(UserConnection.java:466)
+	at com.dbsoftware.bungeeutilisals.bungee.events.ServerSwitch.onJoin(ServerSwitch.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:374)
+	at net.md_5.bungee.ServerConnector.handle(ServerConnector.java:251)
+	at net.md_5.bungee.protocol.packet.Login.handle(Login.java:60)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:76)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+
+
+11:27:47 [INFO] [/205.185.112.43:32896] <-> InitialHandler has connected
+11:27:48 [INFO] [/205.185.112.45:36844] <-> InitialHandler has connected
+11:27:50 [INFO] [/127.0.0.1:57252] <-> InitialHandler has connected
+11:27:50 [INFO] [/50.242.74.221:57255] <-> InitialHandler has connected
+11:27:51 [INFO] [/205.185.112.43:32906] <-> InitialHandler has connected
+11:27:51 [INFO] [/205.185.112.45:36848] <-> InitialHandler has connected
+11:27:53 [INFO] [/205.185.112.43:32916] <-> InitialHandler has connected
+11:27:54 [INFO] [/205.185.112.45:36852] <-> InitialHandler has connected
+11:27:56 [INFO] [/205.185.112.43:32926] <-> InitialHandler has connected
+11:27:57 [INFO] [/205.185.112.45:36856] <-> InitialHandler has connected
+11:27:59 [INFO] [/205.185.112.43:32936] <-> InitialHandler has connected
+11:28:00 [INFO] [/205.185.112.45:36860] <-> InitialHandler has connected
+11:28:02 [INFO] [/205.185.112.43:32946] <-> InitialHandler has connected
+11:28:03 [INFO] [/205.185.112.45:36864] <-> InitialHandler has connected
+11:28:05 [INFO] [/205.185.112.43:32956] <-> InitialHandler has connected
+11:28:08 [INFO] [/205.185.112.43:32966] <-> InitialHandler has connected
+11:28:09 [INFO] [/205.185.112.45:36876] <-> InitialHandler has connected
+11:28:11 [INFO] [/205.185.112.43:32976] <-> InitialHandler has connected
+11:28:12 [INFO] [/205.185.112.45:36880] <-> InitialHandler has connected
+11:28:14 [INFO] [/205.185.112.43:32986] <-> InitialHandler has connected
+11:28:15 [INFO] [/205.185.112.45:36884] <-> InitialHandler has connected
+11:28:17 [INFO] [/205.185.112.43:33001] <-> InitialHandler has connected
+11:28:18 [INFO] [/205.185.112.45:36888] <-> InitialHandler has connected
+11:28:20 [INFO] [/205.185.112.43:33011] <-> InitialHandler has connected
+11:28:21 [INFO] [/205.185.112.45:36892] <-> InitialHandler has connected
+11:28:23 [INFO] [/205.185.112.43:33020] <-> InitialHandler has connected
+11:28:24 [INFO] [/205.185.112.45:36896] <-> InitialHandler has connected
+11:28:26 [INFO] [/205.185.112.43:33030] <-> InitialHandler has connected
+11:28:27 [INFO] [/205.185.112.45:36900] <-> InitialHandler has connected
+11:28:29 [INFO] [/205.185.112.43:33040] <-> InitialHandler has connected
+11:28:32 [INFO] [/205.185.112.43:33050] <-> InitialHandler has connected
+11:28:33 [INFO] [/205.185.112.45:36910] <-> InitialHandler has connected
+11:28:35 [INFO] [/205.185.112.43:33060] <-> InitialHandler has connected
+11:28:36 [INFO] [/205.185.112.45:36914] <-> InitialHandler has connected
+11:28:38 [INFO] [/205.185.112.43:33070] <-> InitialHandler has connected
+11:28:39 [INFO] [/205.185.112.45:36918] <-> InitialHandler has connected
+11:28:41 [INFO] [/205.185.112.43:33080] <-> InitialHandler has connected
+11:28:42 [INFO] [/205.185.112.45:36922] <-> InitialHandler has connected
+11:28:44 [INFO] [/205.185.112.43:33090] <-> InitialHandler has connected
+11:28:45 [INFO] [/205.185.112.45:36926] <-> InitialHandler has connected
+11:28:47 [INFO] [/205.185.112.43:33101] <-> InitialHandler has connected
+11:28:48 [INFO] [/205.185.112.45:36930] <-> InitialHandler has connected
+11:28:50 [INFO] [/205.185.112.43:33111] <-> InitialHandler has connected
+11:28:51 [INFO] [/205.185.112.45:36949] <-> InitialHandler has connected
+11:28:53 [INFO] [/205.185.112.43:33121] <-> InitialHandler has connected
+11:28:56 [INFO] [/205.185.112.43:33131] <-> InitialHandler has connected
+11:28:57 [INFO] [/205.185.112.45:36959] <-> InitialHandler has connected
+11:28:59 [INFO] [/205.185.112.43:33141] <-> InitialHandler has connected
+11:29:00 [INFO] [/205.185.112.45:36964] <-> InitialHandler has connected
+11:29:02 [INFO] [/205.185.112.43:33150] <-> InitialHandler has connected
+11:29:03 [INFO] [/205.185.112.45:36968] <-> InitialHandler has connected
+11:29:05 [INFO] [/205.185.112.43:33160] <-> InitialHandler has connected
+11:29:06 [INFO] [/205.185.112.45:36997] <-> InitialHandler has connected
+11:29:08 [INFO] [/205.185.112.43:33170] <-> InitialHandler has connected
+11:29:09 [INFO] [/205.185.112.45:37001] <-> InitialHandler has connected
+11:29:11 [INFO] [/205.185.112.43:33180] <-> InitialHandler has connected
+11:29:12 [INFO] [/205.185.112.45:37005] <-> InitialHandler has connected
+11:29:14 [INFO] [/205.185.112.43:33190] <-> InitialHandler has connected
+11:29:15 [INFO] [/205.185.112.45:37009] <-> InitialHandler has connected
+11:29:17 [INFO] [/205.185.112.43:33202] <-> InitialHandler has connected
+11:29:20 [INFO] [/205.185.112.43:33212] <-> InitialHandler has connected
+11:29:21 [INFO] [/205.185.112.45:37017] <-> InitialHandler has connected
+11:29:23 [INFO] [/205.185.112.43:33223] <-> InitialHandler has connected
+11:29:24 [INFO] [/205.185.112.45:37021] <-> InitialHandler has connected
+11:29:26 [INFO] [/205.185.112.43:33233] <-> InitialHandler has connected
+11:29:27 [INFO] [/205.185.112.45:37025] <-> InitialHandler has connected
+11:29:29 [INFO] [/205.185.112.43:33243] <-> InitialHandler has connected
+11:29:30 [INFO] [/205.185.112.45:37029] <-> InitialHandler has connected
+11:29:32 [INFO] [/205.185.112.43:33263] <-> InitialHandler has connected
+11:29:33 [INFO] [/205.185.112.45:37033] <-> InitialHandler has connected
+11:29:36 [INFO] [/205.185.112.43:33275] <-> InitialHandler has connected
+11:29:36 [INFO] [/205.185.112.45:37038] <-> InitialHandler has connected
+11:29:38 [INFO] [/205.185.112.43:33286] <-> InitialHandler has connected
+11:29:39 [INFO] [/205.185.112.45:37042] <-> InitialHandler has connected
+11:29:42 [INFO] [/205.185.112.43:33296] <-> InitialHandler has connected
+11:29:44 [INFO] [/205.185.112.43:33305] <-> InitialHandler has connected
+11:29:45 [INFO] CONSOLE executed command: /end
+11:29:45 [INFO] Closing listener [id: 0x71be8c26, /0:0:0:0:0:0:0:0:25565]
+11:29:45 [INFO] Closing listener [id: 0xf473847c, /0:0:0:0:0:0:0:0:25566]
+11:29:45 [INFO] Closing pending connections
+11:29:45 [INFO] Disconnecting 1 connections
+11:29:45 [INFO] [spikeyrobot] disconnected with: §f[Proxy] Proxy restarting.
+11:29:45 [INFO] Closing IO threads
+11:33:51 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+11:33:51 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+11:33:51 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"b6e26e0":1091
+11:33:51 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+11:33:51 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+11:33:51 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+11:33:51 [INFO] Loaded plugin BungeeYAML version ${pom.version}-${build.number} by roblabla
+11:33:51 [INFO] Loaded plugin BungeeUtilisals version 2.0.0 by didjee2
+11:33:51 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:33:51 [INFO] Loaded plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:33:51 [INFO] Loaded plugin SlashServer version 3 by Bloodsplat
+11:33:51 [INFO] Loaded plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:33:51 [INFO] [BungeePerms] loading permissions ...
+11:33:51 [INFO] [BungeePerms] permissions loaded
+11:33:51 [INFO] Loaded plugin BungeePerms version 3.0-alpha-1 by wea_ondara
+11:33:51 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:33:51 [INFO] Loaded plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:33:51 [INFO] Loaded plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:33:51 [INFO] Enabled plugin BungeeYAML version ${pom.version}-${build.number} by roblabla
+11:33:51 [INFO] BungeeUtilisals is now Enabled!
+11:33:51 [INFO] Enabled plugin BungeeUtilisals version 2.0.0 by didjee2
+11:33:51 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:33:51 [INFO] Enabled plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:33:51 [INFO] Enabled plugin SlashServer version 3 by Bloodsplat
+11:33:51 [INFO] Enabled plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:33:51 [INFO] [BungeePerms] Activating BungeePerms ...
+11:33:51 [INFO] Enabled plugin BungeePerms version 3.0-alpha-1 by wea_ondara
+11:33:51 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:33:51 [INFO] Enabled plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:33:51 [INFO] Enabled plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"b6e26e0":1091 by SpigotMC
+11:33:51 [INFO] Listening on /0.0.0.0:25565
+11:33:51 [INFO] Started query on /0:0:0:0:0:0:0:0:25566
+11:33:51 [INFO] [/205.185.112.43:34137] <-> InitialHandler has connected
+11:33:52 [INFO] [/205.185.112.43:34117] <-> InitialHandler has connected
+11:33:52 [INFO] [/205.185.112.45:37424] <-> InitialHandler has connected
+11:33:52 [INFO] [/205.185.112.45:37415] <-> InitialHandler has connected
+11:33:53 [INFO] [/205.185.112.43:34146] <-> InitialHandler has connected
+11:33:54 [INFO] [/205.185.112.43:34097] <-> InitialHandler has connected
+11:33:54 [INFO] [/205.185.112.45:37428] <-> InitialHandler has connected
+11:33:54 [INFO] [/205.185.112.45:37407] <-> InitialHandler has connected
+11:33:55 [INFO] [/205.185.112.43:34127] <-> InitialHandler has connected
+11:33:55 [INFO] [/205.185.112.45:37420] <-> InitialHandler has connected
+11:33:56 [INFO] [/205.185.112.43:34156] <-> InitialHandler has connected
+11:33:57 [INFO] [/205.185.112.43:34107] <-> InitialHandler has connected
+11:33:57 [INFO] [/205.185.112.45:37432] <-> InitialHandler has connected
+11:33:57 [INFO] [/205.185.112.45:37411] <-> InitialHandler has connected
+11:33:59 [INFO] [/205.185.112.43:34166] <-> InitialHandler has connected
+11:34:00 [INFO] [/205.185.112.45:37436] <-> InitialHandler has connected
+11:34:00 [INFO] [/127.0.0.1:57362] <-> InitialHandler has connected
+11:34:01 [INFO] [BungeePerms] Login by spikeyrobot (2ce9dee6-8da9-49d2-b51f-d668931e61a7)
+11:34:01 [INFO] [spikeyrobot] <-> ServerConnector [hub] has connected
+11:34:01 [INFO] [BungeePerms] spikeyrobot=null
+11:34:01 [WARNING] [BungeePerms] NullPointerException in getUser() suppressed (err: Could not compare users<List> to usernameoruuid)
+11:34:01 [INFO] [BungeePerms] spikeyrobot=null
+11:34:01 [WARNING] [BungeePerms] NullPointerException in getUser() suppressed (err: Could not compare users<List> to usernameoruuid)
+11:34:02 [INFO] [/205.185.112.43:34176] <-> InitialHandler has connected
+11:34:03 [INFO] [/205.185.112.45:37440] <-> InitialHandler has connected
+11:34:05 [INFO] [/205.185.112.43:34186] <-> InitialHandler has connected
+11:34:06 [INFO] [/205.185.112.45:37445] <-> InitialHandler has connected
+11:34:08 [INFO] [/205.185.112.43:34198] <-> InitialHandler has connected
+11:34:09 [INFO] [/205.185.112.45:37449] <-> InitialHandler has connected
+11:34:11 [INFO] [/205.185.112.43:34208] <-> InitialHandler has connected
+11:34:12 [INFO] [/205.185.112.45:37454] <-> InitialHandler has connected
+11:34:14 [INFO] [/205.185.112.43:34218] <-> InitialHandler has connected
+11:34:15 [INFO] [/205.185.112.45:37458] <-> InitialHandler has connected
+11:34:17 [INFO] [/205.185.112.43:34230] <-> InitialHandler has connected
+11:34:18 [INFO] [/205.185.112.45:37463] <-> InitialHandler has connected
+11:34:20 [INFO] [/205.185.112.43:34240] <-> InitialHandler has connected
+11:34:21 [INFO] [/205.185.112.45:37470] <-> InitialHandler has connected
+11:34:23 [INFO] [BungeePerms] spikeyrobot=null
+11:34:23 [WARNING] [BungeePerms] NullPointerException in getUser() suppressed (err: Could not compare users<List> to usernameoruuid)
+11:34:23 [INFO] [BungeePerms] spikeyrobot=null
+11:34:23 [WARNING] [BungeePerms] NullPointerException in getUser() suppressed (err: Could not compare users<List> to usernameoruuid)
+11:34:23 [INFO] [BungeePerms] spikeyrobot=null
+11:34:23 [WARNING] [BungeePerms] NullPointerException in getUser() suppressed (err: Could not compare users<List> to usernameoruuid)
+11:34:23 [INFO] [BungeePerms] spikeyrobot=null
+11:34:23 [WARNING] [BungeePerms] NullPointerException in getUser() suppressed (err: Could not compare users<List> to usernameoruuid)
+11:34:23 [INFO] [/205.185.112.43:34250] <-> InitialHandler has connected
+11:34:24 [INFO] [/205.185.112.45:37475] <-> InitialHandler has connected
+11:34:26 [INFO] [/205.185.112.43:34260] <-> InitialHandler has connected
+11:34:27 [INFO] [/205.185.112.45:37479] <-> InitialHandler has connected
+11:34:29 [INFO] [/205.185.112.43:34271] <-> InitialHandler has connected
+11:34:30 [INFO] [/205.185.112.45:37483] <-> InitialHandler has connected
+11:34:32 [INFO] [/205.185.112.43:34281] <-> InitialHandler has connected
+11:34:33 [INFO] [/205.185.112.45:37487] <-> InitialHandler has connected
+11:34:35 [INFO] [/205.185.112.43:34290] <-> InitialHandler has connected
+11:34:36 [INFO] [/205.185.112.45:37491] <-> InitialHandler has connected
+11:34:38 [INFO] [/205.185.112.43:34300] <-> InitialHandler has connected
+11:34:39 [INFO] [/205.185.112.45:37495] <-> InitialHandler has connected
+11:34:41 [INFO] [/205.185.112.43:34310] <-> InitialHandler has connected
+11:34:42 [INFO] [/205.185.112.45:37499] <-> InitialHandler has connected
+11:34:44 [INFO] [/205.185.112.43:34320] <-> InitialHandler has connected
+11:34:45 [INFO] [/205.185.112.45:37503] <-> InitialHandler has connected
+11:34:47 [INFO] [/205.185.112.43:34330] <-> InitialHandler has connected
+11:34:48 [INFO] [/205.185.112.45:37507] <-> InitialHandler has connected
+11:34:49 [INFO] [spikeyrobot] -> UpstreamBridge has disconnected
+11:34:49 [INFO] [spikeyrobot] disconnected with: §f[Proxy] Lost connection to server.
+11:34:49 [INFO] [spikeyrobot] <-> DownstreamBridge <-> [hub] has disconnected
+11:34:49 [INFO] [/127.0.0.1:57376] <-> InitialHandler has connected
+11:34:49 [INFO] [/50.242.74.221:57379] <-> InitialHandler has connected
+11:34:50 [INFO] [/205.185.112.43:34357] <-> InitialHandler has connected
+11:34:51 [INFO] [/205.185.112.45:37512] <-> InitialHandler has connected
+11:34:53 [INFO] [/205.185.112.43:34367] <-> InitialHandler has connected
+11:34:54 [INFO] [/205.185.112.45:37516] <-> InitialHandler has connected
+11:34:56 [INFO] [/205.185.112.43:34377] <-> InitialHandler has connected
+11:34:57 [INFO] [/205.185.112.45:37520] <-> InitialHandler has connected
+11:34:59 [INFO] [/205.185.112.43:34387] <-> InitialHandler has connected
+11:35:00 [INFO] [/205.185.112.45:37524] <-> InitialHandler has connected
+11:35:02 [INFO] [/205.185.112.43:34397] <-> InitialHandler has connected
+11:35:03 [INFO] [/205.185.112.45:37528] <-> InitialHandler has connected
+11:35:05 [INFO] [/205.185.112.43:34407] <-> InitialHandler has connected
+11:35:06 [INFO] [/205.185.112.45:37533] <-> InitialHandler has connected
+11:35:08 [INFO] [/205.185.112.43:34417] <-> InitialHandler has connected
+11:35:09 [INFO] [/205.185.112.45:37537] <-> InitialHandler has connected
+11:35:11 [INFO] [/205.185.112.43:34427] <-> InitialHandler has connected
+11:35:12 [INFO] [/205.185.112.45:37541] <-> InitialHandler has connected
+11:35:14 [INFO] [/205.185.112.43:34436] <-> InitialHandler has connected
+11:35:15 [INFO] [/205.185.112.45:37545] <-> InitialHandler has connected
+11:35:17 [INFO] [/205.185.112.43:34447] <-> InitialHandler has connected
+11:35:18 [INFO] [/205.185.112.45:37549] <-> InitialHandler has connected
+11:35:20 [INFO] [/205.185.112.43:34457] <-> InitialHandler has connected
+11:35:21 [INFO] [/205.185.112.45:37566] <-> InitialHandler has connected
+11:35:23 [INFO] [/205.185.112.43:34467] <-> InitialHandler has connected
+11:35:24 [INFO] [/205.185.112.45:37572] <-> InitialHandler has connected
+11:35:26 [INFO] [/205.185.112.43:34477] <-> InitialHandler has connected
+11:35:27 [INFO] [/205.185.112.45:37576] <-> InitialHandler has connected
+11:35:29 [INFO] [/205.185.112.43:34487] <-> InitialHandler has connected
+11:35:30 [INFO] [/205.185.112.45:37580] <-> InitialHandler has connected
+11:35:33 [INFO] [/205.185.112.43:34497] <-> InitialHandler has connected
+11:35:33 [INFO] [/205.185.112.45:37585] <-> InitialHandler has connected
+11:35:36 [INFO] [/205.185.112.43:34507] <-> InitialHandler has connected
+11:35:36 [INFO] [/205.185.112.45:37589] <-> InitialHandler has connected
+11:35:38 [INFO] [/205.185.112.43:34517] <-> InitialHandler has connected
+11:35:39 [INFO] [/205.185.112.45:37593] <-> InitialHandler has connected
+11:35:41 [INFO] [/205.185.112.43:34527] <-> InitialHandler has connected
+11:35:42 [INFO] [/205.185.112.45:37597] <-> InitialHandler has connected
+11:35:44 [INFO] [/205.185.112.43:34537] <-> InitialHandler has connected
+11:35:45 [INFO] [/205.185.112.45:37601] <-> InitialHandler has connected
+11:35:47 [INFO] [/205.185.112.43:34551] <-> InitialHandler has connected
+11:35:48 [INFO] [/205.185.112.45:37605] <-> InitialHandler has connected
+11:35:50 [INFO] [/205.185.112.43:34561] <-> InitialHandler has connected
+11:35:51 [INFO] [/205.185.112.45:37609] <-> InitialHandler has connected
+11:35:53 [INFO] [/205.185.112.43:34571] <-> InitialHandler has connected
+11:35:54 [INFO] [/205.185.112.45:37613] <-> InitialHandler has connected
+11:35:56 [INFO] [/205.185.112.43:34580] <-> InitialHandler has connected
+11:35:57 [INFO] [/205.185.112.45:37617] <-> InitialHandler has connected
+11:35:59 [INFO] [/205.185.112.43:34590] <-> InitialHandler has connected
+11:36:00 [INFO] [/205.185.112.45:37622] <-> InitialHandler has connected
+11:36:02 [INFO] [/205.185.112.43:34600] <-> InitialHandler has connected
+11:36:03 [INFO] [/205.185.112.45:37626] <-> InitialHandler has connected
+11:36:05 [INFO] [/205.185.112.43:34610] <-> InitialHandler has connected
+11:36:06 [INFO] [/205.185.112.45:37631] <-> InitialHandler has connected
+11:36:08 [INFO] [/205.185.112.43:34620] <-> InitialHandler has connected
+11:36:09 [INFO] [/205.185.112.45:37635] <-> InitialHandler has connected
+11:36:11 [INFO] [/205.185.112.43:34631] <-> InitialHandler has connected
+11:36:12 [INFO] [/205.185.112.45:37639] <-> InitialHandler has connected
+11:36:14 [INFO] [/205.185.112.43:34641] <-> InitialHandler has connected
+11:36:15 [INFO] [/205.185.112.45:37643] <-> InitialHandler has connected
+11:36:16 [INFO] §cCommand not found
+11:36:17 [INFO] [/205.185.112.43:34652] <-> InitialHandler has connected
+11:36:18 [INFO] [/205.185.112.45:37647] <-> InitialHandler has connected
+11:36:20 [INFO] [/205.185.112.43:34662] <-> InitialHandler has connected
+11:36:21 [INFO] [/205.185.112.45:37651] <-> InitialHandler has connected
+11:36:23 [INFO] [/205.185.112.43:34672] <-> InitialHandler has connected
+11:36:24 [INFO] [/205.185.112.45:37655] <-> InitialHandler has connected
+11:36:26 [INFO] [/205.185.112.43:34682] <-> InitialHandler has connected
+11:36:27 [INFO] [/205.185.112.45:37659] <-> InitialHandler has connected
+11:36:29 [INFO] [/205.185.112.43:34693] <-> InitialHandler has connected
+11:36:30 [INFO] [/205.185.112.45:37663] <-> InitialHandler has connected
+11:36:32 [INFO] [/205.185.112.43:34703] <-> InitialHandler has connected
+11:36:33 [INFO] [/205.185.112.45:37667] <-> InitialHandler has connected
+11:36:33 [INFO] CONSOLE executed command: /end
+11:36:33 [INFO] Closing listener [id: 0x659919f9, /0:0:0:0:0:0:0:0:25566]
+11:36:33 [INFO] Closing listener [id: 0xebcf7fed, /0:0:0:0:0:0:0:0:25565]
+11:36:33 [INFO] Closing pending connections
+11:36:33 [INFO] Disconnecting 0 connections
+11:36:33 [INFO] Closing IO threads
+11:36:35 [INFO] Disabling plugins
+11:36:35 [INFO] [BungeePerms] Deactivating BungeePerms ...
+11:36:35 [SEVERE] Exception disabling plugin BungeeUtilisals
+java.lang.NullPointerException
+	at com.dbsoftware.bungeeutilisals.bungee.BungeeUtilisals.onDisable(BungeeUtilisals.java:242)
+	at net.md_5.bungee.BungeeCord$4.run(BungeeCord.java:399)

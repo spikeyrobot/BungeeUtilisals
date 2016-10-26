@@ -1,0 +1,60 @@
+
+Announcements:
+  Enabled: false
+  
+  Global:
+    Enabled: false
+    Interval: 150
+    Messages:
+    - '&a&lWelcome to our network!'
+    - '&aThis server is using BungeeUtilisals.'
+    - '&aDon''t forget to take a little look at our website!'
+  
+  
+  vanilla:
+    Enabled: true
+    Interval: 75
+    Messages:
+    - '&aHello Everyone, &eWelcome to the &avanilla &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+  
+  
+  hub:
+    Enabled: true
+    Interval: 75
+    Messages:
+    - '&aHello Everyone, &eWelcome to the &ahub &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+  
+  
+  minigames:
+    Enabled: true
+    Interval: 75
+    Messages:
+    - '&aHello Everyone, &eWelcome to the &aminigames &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+  
+  
+  towny:
+    Enabled: true
+    Interval: 75
+    Messages:
+    - '&aHello Everyone, &eWelcome to the &atowny &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+  
+  
+  development:
+    Enabled: true
+    Interval: 75
+    Messages:
+    - '&aHello Everyone, &eWelcome to the &adevelopment &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+  
+  
+  lobby:
+    Enabled: true
+    Interval: 75
+    Messages:
+    - '&aHello Everyone, &eWelcome to the &alobby &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+

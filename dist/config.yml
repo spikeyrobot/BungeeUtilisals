@@ -1,0 +1,72 @@
+player_limit: -1
+ip_forward: true
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  - slashserver.hub
+  - slashserver.vanilla
+  - slashserver.minigames
+  - slashserver.towny
+  admin:
+  - butilisals.*
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.send
+  - slashserver.vanilla
+  - slashserver.minigames
+  - slashserver.towny
+timeout: 30000
+log_commands: true
+online_mode: true
+servers:
+  minigames:
+    address: 162.245.2.47:25565
+    restricted: false
+    motd: '&1SpikeyCraft Minigames'
+  vanilla:
+    address: 162.245.2.48:25565
+    restricted: false
+    motd: '&1SpikeyCraft Vanilla'
+  development:
+    address: 50.242.74.221:25565
+    restricted: false
+    motd: '&1SpikeyPack Open Dev!'
+  towny:
+    address: 162.245.1.46:25565
+    restricted: false
+    motd: '&1SpikeyCraft Towny'
+  hub:
+    address: 162.245.0.199:25565
+    restricted: false
+    motd: '&aSpikeyCraft! &a&lTowny!&2Minigames!&bMcMMO!&aGriefPrevention!&dMobArena!&6Parkour!&eEssentials!&4SG!&8OITC!'
+listeners:
+- max_players: 200
+  fallback_server: minigames
+  host: 0.0.0.0:25566
+  bind_local_address: false
+  ping_passthrough: false
+  tab_list: GLOBAL_PING
+  default_server: hub
+  forced_hosts:
+    dev.spikeycraft.com: development
+    modded.spikeycraft.com: minigames
+    lobby.spikeycraft.com: hub
+    towny.spikeycraft.com: towny
+  tab_size: 60
+  force_default_server: true
+  motd: '&aSpikeyCraft!&a&lTowny!&2Minigames!&a&oCreative! &dMobArena!&6Parkour!&eEssentials!&4SG!&8OITC!&7MazePvP!&aEconomy!'
+  query_enabled: true
+  query_port: 25566
+disabled_commands:
+- disabledcommandhere
+network_compression_threshold: 256
+groups:
+  spikeyrobot:
+  - admin
+  Roahn:
+  - admin
+connection_throttle: -1
+stats: ee48941c-5ef2-4292-8a7f-734effa8f290

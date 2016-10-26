@@ -1,0 +1,145 @@
+groups:
+  Guest:
+    rank: 1000
+    default: true
+    display: ''
+    prefix: ''
+    suffix: ''
+    inheritances: []
+    permissions:
+    - butilisals.hub
+    - butilisals.friends
+    - butilisals.vote
+    - butilisals.rules
+    - butilisals.find
+    - butilisals.glist
+    - butilisals.server
+    - butilisals.report
+    - butilisals.store
+    weight: 1000
+    ladder: default
+  Mod:
+    rank: 500
+    default: false
+    display: ''
+    prefix: ''
+    suffix: ''
+    inheritances:
+    - Guest
+    permissions:
+    - bungeeperms.promote
+    - bungeeperms.demote
+    - bungeeperms.user.groups
+    - butilisals.staffchat
+    - butilisals.clearchat
+    - butilisals.talkinlock
+    - butilisals.caps.bypass
+    - butilisals.antiad.bypass
+    - butilisals.ban
+    - butilisals.banip
+    - butilisals.unban
+    - butilisals.tempban
+    - butilisals.kick
+    - butilisals.playerinfo
+    - butilisals.mute
+    - butilisals.unmute
+    - butilisals.tempmute
+    - butilisals.warn
+    weight: 1000
+    ladder: default
+  Admin:
+    rank: 1
+    default: false
+    display: ''
+    prefix: ''
+    suffix: ''
+    inheritances:
+    - Guest
+    - Mod
+    permissions:
+    - butilisals.*
+    - butilisals.admin
+    - bungeeperms.*
+    weight: 1000
+    ladder: default
+version: 1
+users:
+  2ce9dee6-8da9-49d2-b51f-d668931e61a7:
+    groups:
+    - Admin
+    permissions: []
+    display: ''
+    prefix: ''
+    suffix: ''
+  14cd322c-6998-46a7-a208-01bf4faf88ca:
+    groups:
+    - Guest
+    permissions: []
+    display: ''
+    prefix: ''
+    suffix: ''
+  c246de17-f141-44c5-ba65-d493f2fcf334:
+    groups:
+    - Guest
+    permissions: []
+  7ce0ca38-701d-42b7-868a-b4ad858dde01:
+    groups:
+    - Guest
+    permissions: []
+    display: ''
+    prefix: ''
+    suffix: ''
+  00b4f197-40ff-4e9f-a138-dcb84bcb8379:
+    groups:
+    - Guest
+    permissions: []
+  f9800eff-c4eb-4e45-b0d9-6f47c6669001:
+    groups:
+    - Guest
+    permissions: []
+    display: ''
+    prefix: ''
+    suffix: ''
+  64bb46c5-cc03-425d-9bb2-2ca08b4e3ece:
+    groups:
+    - Guest
+    permissions: []
+    display: ''
+    prefix: ''
+    suffix: ''
+  88a11d1f-14b1-4aa8-b4d8-3d6939b5d96c:
+    groups:
+    - Guest
+    permissions: []
+    display: ''
+    prefix: ''
+    suffix: ''
+  64db2f50-8b00-42a9-8c68-081617f7df7d:
+    groups:
+    - Guest
+    permissions: []
+    display: ''
+    prefix: ''
+    suffix: ''
+  c6ac523f-443d-4ac6-8b8a-2bc1cc9b6f3c:
+    groups:
+    - Guest
+    permissions: []
+  52766e6e-06a3-4964-bdc2-a7f388b23ed1:
+    groups:
+    - Guest
+    permissions: []
+    display: ''
+    prefix: ''
+    suffix: ''
+  a650bd8f-8740-4724-917c-aac6c3e182c3:
+    groups:
+    - Guest
+    permissions: []
+  spikeyrobot:
+    groups:
+    - Admin
+    permissions: []
+    display: ''
+    prefix: ''
+    suffix: ''

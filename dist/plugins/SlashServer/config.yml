@@ -1,0 +1,9 @@
+lobby: 0
+minigames: 0
+vanilla: 0
+towny: 0
+development: 0
+ALREADY_ON_SERVER: '&cYou are already on that server!'
+TELEPORTING: '&2Connecting you to {name}'
+ALREADY_TELEPORTING: '&cAlready connected to the server'
+hub: 0

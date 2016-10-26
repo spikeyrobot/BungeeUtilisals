@@ -1,0 +1,64 @@
+
+Announcements:
+  Enabled: true
+  
+  Global:
+    Enabled: true
+    Interval: 150
+    Messages:
+    - Be sure to vote at &1§nhttp://spikeycraft.com &r&adaily for cool rewards and to support the server!
+    - We have fun minigames at &6/MiniGames&a! Be sure to check them out!
+    - Make sure your home is protected and you have enough money to keep your town!
+    - You may set one home with &6/sethome&a! Go to it with &6/home&a! Want more? Buy more at &1§nhttp://spikeycraft.com&r&a!
+    - Any problems? Visit &1§nhttp://spikeycraft.com&r&a and make a post on the forums!
+    - Add officialspikeycraft on skype for all your server questions!
+    - Check out &1§nhttp://spikeycraft.com&r&a to support the server by buying cool in-game perks! (Trails, hats, FLYING, Mobarena kits and maps!
+  
+  
+  vanilla:
+    Enabled: false
+    Interval: 75
+    Messages:
+    - '&aHello %p%, &eWelcome to the &avanilla &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+  
+  
+  hub:
+    Enabled: false
+    Interval: 75
+    Messages:
+    - '&aHello %p%, &eWelcome to the &ahub &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+  
+  
+  minigames:
+    Enabled: false
+    Interval: 75
+    Messages:
+    - '&aHello %p%, &eWelcome to the &aminigames &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+  
+  
+  towny:
+    Enabled: false
+    Interval: 75
+    Messages:
+    - '&aHello %p%, &eWelcome to the &atowny &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+  
+  
+  development:
+    Enabled: false
+    Interval: 75
+    Messages:
+    - '&aHello %p%, &eWelcome to the &adevelopment &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+  
+  
+  lobby:
+    Enabled: true
+    Interval: 75
+    Messages:
+    - '&aHello %p%, &eWelcome to the &alobby &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+

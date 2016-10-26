@@ -1,0 +1,80 @@
+
+Announcements:
+  Enabled: false
+  
+  Global:
+    Enabled: true
+    Interval: 150
+    FadeIn: 30
+    Stay: 60
+    FadeOut: 30
+    Messages:
+    - '&a&lWelcome to our network!'
+    - '&aThis server is using%n&e&lBungeeUtilisals.'
+  
+  
+  vanilla:
+    Enabled: true
+    Interval: 75
+    FadeIn: 30
+    Stay: 60
+    FadeOut: 30
+    Messages:
+    - '&aHello %p%,%n&eWelcome to the &avanilla &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+  
+  
+  hub:
+    Enabled: true
+    Interval: 75
+    FadeIn: 30
+    Stay: 60
+    FadeOut: 30
+    Messages:
+    - '&aHello %p%,%n&eWelcome to the &ahub &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+  
+  
+  minigames:
+    Enabled: true
+    Interval: 75
+    FadeIn: 30
+    Stay: 60
+    FadeOut: 30
+    Messages:
+    - '&aHello %p%,%n&eWelcome to the &aminigames &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+  
+  
+  towny:
+    Enabled: true
+    Interval: 75
+    FadeIn: 30
+    Stay: 60
+    FadeOut: 30
+    Messages:
+    - '&aHello %p%,%n&eWelcome to the &atowny &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+  
+  
+  development:
+    Enabled: true
+    Interval: 75
+    FadeIn: 30
+    Stay: 60
+    FadeOut: 30
+    Messages:
+    - '&aHello %p%,%n&eWelcome to the &adevelopment &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+  
+  
+  lobby:
+    Enabled: true
+    Interval: 75
+    FadeIn: 30
+    Stay: 60
+    FadeOut: 30
+    Messages:
+    - '&aHello %p%,%n&eWelcome to the &alobby &eserver!'
+    - '&aThis server is using BungeeUtilisals!'
+

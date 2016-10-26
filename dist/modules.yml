@@ -1,0 +1,4 @@
+version: 2
+modules:
+- jenkins://cmd_send
+- jenkins://reconnect_yaml
